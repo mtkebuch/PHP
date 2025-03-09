@@ -62,7 +62,7 @@ foreach ($matrix as $row) {
 }
 }
 
-//56
+//5
 $sum=0;
 foreach ($matrix as $row) {
     foreach ($row as $element) {
