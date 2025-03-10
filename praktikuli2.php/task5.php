@@ -27,8 +27,8 @@
   }else {
         $gender=$_POST['gender'];
     }
-    $website=$_POST['website'];
-    $comment=$_POST['comment'];
+    $website=isset($_POST['website']) ? $_POST['website'] : '';
+    $comment=isset($_POST['comment']) ?$_POST['comment'] :'';
   ?>
 <!DOCTYPE html>
 <html lang="en">

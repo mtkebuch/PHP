@@ -1,0 +1,17 @@
+.tableDesign {
+    border-collapse: collapse;
+    border:1px solid black;
+    width:600px;
+}
+.tableDesign tr td {
+    border:1px solid rgb(36, 196, 121);
+    background-color: aquamarine;
+    width:600px;
+    text-align:center
+}
+input, button {
+    margin:5px;
+    text-align:center;
+    
+
+}
