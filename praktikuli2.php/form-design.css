@@ -1,0 +1,15 @@
+body  {
+   border: 1px solid black;
+   width:600px;
+   height:600px;
+   padding:5px
+
+}
+form h3 {
+    margin:0px
+}
+
+form input {
+    margin:5px
+}
+
