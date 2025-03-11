@@ -33,7 +33,7 @@ if(!empty($_POST['M'])&&!empty($_POST['N'])&&!empty($_POST['a'])&&!empty($_POST[
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2.php</title>
+    <title>3.2</title>
     <link rel="stylesheet" href="tableDesign.css">
 </head>
 <body>
