@@ -1,0 +1,12 @@
+.container{
+    border: solid 2px gray;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.info{
+    margin-top: 10px;
+    background-color: rgb(218, 200, 252);
+    min-height: 120px;
+}
