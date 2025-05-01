@@ -1,0 +1,5 @@
+1,dream hotel,9.5
+3,wowhotel,0
+7,vaime,0
+9,uki,0
+10,uki,0
