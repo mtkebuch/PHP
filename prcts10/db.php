@@ -25,5 +25,12 @@ include "connection.php"
         include "users.php";
     }
     ?>
+
+    <?
+    $file=fopen("users.txt","w");
+    if(!$file){
+        die("Cannot create file.");
+    }
+    ?>
 </body>
 </html>

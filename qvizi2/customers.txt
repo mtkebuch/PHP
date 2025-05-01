@@ -1,0 +1,4 @@
+5,MARI,tyebuchava
+6,GODERDZI,gogochuri
+10,elene,gogochuri
+12,elene,gogochuri
