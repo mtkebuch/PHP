@@ -28,6 +28,7 @@ if(isset($_GET['nav'])&&$_GET['nav']==='hotels'){
         fwrite($file,$rows['id'].','.$rows['name'].','.$rows['rate']."\n");
     }
     fclose($file);
+    
 
 }
 ?>
