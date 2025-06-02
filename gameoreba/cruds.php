@@ -1,3 +1,12 @@
+<?php
+session_start();
+if(isset($_GET['log']) && $_GET['log']=='out'){
+    unset($_SESSION['username']);
+    session_destroy();
+    header("location:sessions.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +15,9 @@
     <title>Document</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <a href="?log=out">Log Out</a>
+    </header>
     <main>
         <nav>
             <a href="?nav=genres">genres</a>
