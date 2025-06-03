@@ -1,9 +1,9 @@
 <?php
 session_start();
-if(isset($_GET['log']) && $_GET['log']=='out'){
+if(isset($_GET['logout'])){
     unset($_SESSION['username']);
     session_destroy();
-    header("location:sessions.php");
+    header(location:"sessions.php");
 }
 ?>
 
@@ -16,7 +16,7 @@ if(isset($_GET['log']) && $_GET['log']=='out'){
 </head>
 <body>
     <header>
-        <a href="?log=out">Log Out</a>
+        <a href="?logout">Log Out</a>
     </header>
     <main>
         <nav>
